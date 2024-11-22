@@ -1,0 +1,45 @@
+ flex- make its children align in a row horizontally
+
+ items-center This centers the child elements of the div along the vertical axis
+
+ justify-between - This evenly spaces the child elements along the horizontal axis,
+
+ py-5 -  This applies vertical padding (padding on the top and bottom) of 5 units 
+
+ font-medium : This applies a medium font weight to the text inside the div.
+
+ sm:flex - This applies Flexbox to the ul, but only on small screen sizes and larger (i.e., screens with a minimum width of 640px). The list items will align in a horizontal row on these screen sizes.
+
+ gap-5:  This adds a gap of 5 units between each child element
+
+ text-sm: This sets the text size to small,
+
+ hidden:t this hides the ul element by default. Since sm:flex applies Flexbox at small screen sizes and above, the hidden class will typically be overridden, making the ul visible on small screens and larger.
+
+ flex-col: This changes the Flexbox layout to a vertical column. The child elements of NavLink will be stacked one on top of the other.
+
+ items-center: This centers the child elements horizontally within the NavLink.
+
+ group- This class is a special utility in Tailwind CSS that allows you to target elements within this div (and its children) when this div is hovered or focused. It enables the use of sibling or child selectors in combination with pseudo-classes like group-hover or group-focus. For example, you can style child elements of this div based on whether this div is hovered or focused.
+
+ group-hover:block 
+ This class shows the div (turns it into a block-level element) when the parent element (with the group class) is hovered over. The group class is typically applied to the parent container, enabling this hover effect.
+
+ p: This positions the p element absolutely relative to its nearest positioned ancestor (usually a parent with relative or absolute positioning). This allows it to be placed freely within its container using the right and bottom properties.
+
+ aspect-square : This ensures that the height of the element is equal to its width, making it a perfect square.
+
+ top-0 right-0 bottom-0 :
+ These properties ensure the div stretches from the top to the bottom of the parent element and is aligned to the right. This makes the div take the full height of the parent, starting at the top and ending at the bottom, but the width is controlled dynamically.
+
+ 
+: relative is used to position an element relative to its normal position in the document flow. This means that when you apply position: relative to an element, it remains in the same place it would normally appear in the document, but you can adjust its position using the top, right, bottom, and left properties.
+
+
+In CSS, position: absolute is used to position an element precisely relative to its nearest positioned ancestor (an element with a position other than static). When you apply position: absolute to an element, it is removed from the normal document flow, meaning it doesn’t affect or push other elements around it. You can then use top, right, bottom, and left properties to control its exact position.
+
+In CSS, display: inline is used to make an element behave like an inline element, meaning it only takes up as much width as necessary and allows other elements to sit beside it on the same line.
+
+flex-5 : Expands the Element Proportionally: If there are other elements in the flex container, flex-5 will make this element take up more space in proportion to the others.
+
+bg-inherit : The bg-inherit class is used to set an element’s background color to match its parent’s background. It’s commonly seen in CSS frameworks like Tailwind CSS, or it can be written directly in CSS as background-color: inherit;.
